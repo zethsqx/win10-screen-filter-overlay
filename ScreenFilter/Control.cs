@@ -30,12 +30,12 @@ namespace ScreenFilter
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Hide();
+            WindowState = FormWindowState.Minimized;
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Hide();
+            WindowState = FormWindowState.Minimized;
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -46,18 +46,24 @@ namespace ScreenFilter
             }
             if (e.Button is MouseButtons.Left)
             {
-                Show();
+                WindowState = FormWindowState.Normal;
             }
         }
 
         private void OpenBtn_Click(object sender, EventArgs e)
         {
-            this.Show();
+                WindowState = FormWindowState.Normal;
         }
 
         private void CloseBtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void AboutBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("For more information, visit \n https://github.com/zethsqx/win10-screen-filter-overlay", "About",
+                  MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

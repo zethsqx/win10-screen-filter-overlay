@@ -55,11 +55,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.RosyBrown;
+            this.label1.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.label1.Location = new System.Drawing.Point(14, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(382, 46);
+            this.label1.Size = new System.Drawing.Size(416, 40);
             this.label1.TabIndex = 1;
             this.label1.Text = "Set your brightness";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -88,6 +88,7 @@
             // 
             // notifyIcon1
             // 
+            this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
@@ -95,32 +96,35 @@
             // 
             // contextMenuStrip1
             // 
-            this.contextMenuStrip1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.contextMenuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.OpenBtn,
             this.AboutBtn,
             this.CloseBtn});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(361, 203);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(179, 148);
             // 
             // OpenBtn
             // 
             this.OpenBtn.Name = "OpenBtn";
             this.OpenBtn.Size = new System.Drawing.Size(360, 48);
             this.OpenBtn.Text = "Open";
+            this.OpenBtn.Click += new System.EventHandler(this.OpenBtn_Click);
             // 
             // AboutBtn
             // 
             this.AboutBtn.Name = "AboutBtn";
             this.AboutBtn.Size = new System.Drawing.Size(360, 48);
             this.AboutBtn.Text = "About";
+            this.AboutBtn.Click += new System.EventHandler(this.AboutBtn_Click);
             // 
             // CloseBtn
             // 
             this.CloseBtn.Name = "CloseBtn";
             this.CloseBtn.Size = new System.Drawing.Size(360, 48);
             this.CloseBtn.Text = "Close";
+            this.CloseBtn.Click += new System.EventHandler(this.CloseBtn_Click);
             // 
             // Control
             // 
@@ -143,6 +147,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control";
             this.TopMost = true;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
