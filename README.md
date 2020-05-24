@@ -1,6 +1,6 @@
 # Screen Filter for Window
 
-A screen filter/dimmer I was using all these years broke.
+A screen filter/dimmer I was using all these years broke  
 Wrote a simple screen filter overlay to filter out the brightness
 
 Tested on window 10. 
