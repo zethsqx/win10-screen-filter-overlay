@@ -1,7 +1,6 @@
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\bin\Debug\ScreenFilter.exe.config
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\bin\Debug\ScreenFilter.exe
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\bin\Debug\ScreenFilter.pdb
-C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.csprojAssemblyReference.cache
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.Filter.resources
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.Properties.Resources.resources
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.csproj.GenerateResource.cache
