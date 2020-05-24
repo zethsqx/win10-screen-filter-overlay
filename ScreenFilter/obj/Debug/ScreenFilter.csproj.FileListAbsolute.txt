@@ -8,3 +8,4 @@ C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.csproj.CoreCompileInputs.cache
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.exe
 C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.pdb
+C:\Users\ohmyg\Source\Repos\zethsqx\win10-screen-filter-overlay\ScreenFilter\obj\Debug\ScreenFilter.Control.resources

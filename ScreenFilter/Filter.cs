@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,8 +18,6 @@ namespace ScreenFilter
         public Filter()
         {
             InitializeComponent();
-            this.Opacity = 0.5;
-            this.TopMost = true;
         }
 
         [DllImport("user32.dll", SetLastError = true)]
