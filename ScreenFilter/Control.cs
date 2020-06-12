@@ -17,15 +17,19 @@ namespace ScreenFilter
         public Control()
         {
             InitializeComponent();
+            trackBar1.Value = Properties.Settings.Default.brightness;
+            filter.Opacity = (double)Properties.Settings.Default.brightness / 100;
             filter.Show();
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             //Debug.WriteLine((double)trackBar1.Value / 10);
-            filter.Opacity = ((double)trackBar1.Value / 10);
+            filter.Opacity = (double)trackBar1.Value / 100;
             filter.TopMost = true;
             this.TopMost = true;
+            Properties.Settings.Default.brightness = trackBar1.Value;
+            Properties.Settings.Default.Save();
         }
 
         private void label2_Click(object sender, EventArgs e)
